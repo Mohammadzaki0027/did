@@ -1,7 +1,7 @@
 
 require('dotenv').config();
 const express = require('express');
-const mongoose = require('mongoose');
+
 const identityRoutes = require('./routes/identity');
 const {connection}=require("./config.js/db")
 const app = express();
