@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "name": "did",
   "version": "1.0.0",
   "main": "index.js",
