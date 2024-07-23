@@ -1,4 +1,13 @@
 // models/identity.js
+const mongoose = require("mongoose");
+const connect = mongoose.connect("mongodb://localhost:27017/Login-page");
+
+connect.then(() => {
+    console.log("Database connected Successfully");
+})
+.catch(() => {
+    console.log("Database cannot be connected");
+});
 const mongoose = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
 
