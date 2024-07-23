@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
-const identity = require('../../models/identity');
+const identity = require('../models/identity');
 
 mongoose.connect('mongodb://localhost:27017', {
     useNewUrlParser: true,
